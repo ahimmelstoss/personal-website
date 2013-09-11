@@ -37,6 +37,9 @@ a:visited { color: black; }
 a:active { color: black; }
 
 img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
     position: absolute;
     top: 0; 
     bottom:0; 
