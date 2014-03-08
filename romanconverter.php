@@ -14,12 +14,12 @@
 
   <?php if (!isset($_GET["number"])): ?>
   <?php elseif (isset($_GET["number"]) && is_numeric($_GET["number"]) && $_GET["number"] >= 1): ?> 
-    <p>Your Number: <?php echo $_GET["number"] ?></p>
+    <p>Your Number: <?php echo htmlentities($_GET["number"], ENT_QUOTES); ?></p>
     <?php 
     $myRoman = new Roman($_GET["number"]); 
     $mynumber = $myRoman->toRoman();
     ?>
-    <p>Roman Number: <?php echo $mynumber; ?> </p>
+    <p style="word-wrap:break-word;">Roman Number: <?php echo htmlentities($mynumber, ENT_QUOTES); ?> </p>
   <?php else: ?>
     <p>Error! Please enter a valid number.</p>
   <?php endif; ?>
