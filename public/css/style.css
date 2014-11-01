@@ -4,7 +4,7 @@ html {
 
 body {
   height: 100%;
-	background-image: url('teal.png');
+	background-image: url('../images/teal.png');
 	background-color: grey, rgb(178, 173, 173);
 	background-repeat: repeat;
 	background-attachment: scroll, fixed;
