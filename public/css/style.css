@@ -167,14 +167,14 @@ ul {
     width:500px;
     height:500px;
     left:45%;
-    top:45%;
+    top:40%;
     margin-left:-200px;
     margin-top:-200px;
 }
 
 #githubimg {
     position: absolute; 
-    bottom: 35%; 
+    bottom: 9%; 
     left: 46%; 
     margin: auto;
 }
